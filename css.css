@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.container{
+  display: flex;
+  justify-content: center; 
+  align-items: stretch;    
+  gap: 80px;               
+  margin: 0 auto;
+  align-items: flex-end;
+  padding: 25px;
+  text-align: center;
+}
+.camiseta, .reloj, .zapato{
+    width: 250px;
+    height: 200px;
+}
+.tarjeta1 {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    box-shadow: 5px 5px 25px gray;
+}
+
+.tarjeta2{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    box-shadow: 5px 5px 25px gray;
+}
+
+.tarjeta3{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    box-shadow: 5px 5px 25px gray;
+}
+h3{
+    text-transform: uppercase;
+    font-family:'Montserrat';
+    font-weight: 700;            
+    letter-spacing: 0.15em;      
+    color: #555555;
+    margin-top: 40px;
+}
+
+ul{
+  list-style: none;
+  padding: 15px;
+  color: #777;
+  font-size: 14px; 
+}
+
+li {
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+}
+
+button{
+  background-color: #c9a227;
+  padding: 10px;
+  border: none;
+  padding: 10px 20px;
+  width: 300px;
+  height: 45px;
+  margin-top:50px;
+  color: white;
+}
+button:hover{
+    background-color: #a88917;
+}
+
+.boton2{
+    background-color: #5DADE2;
+}
+.boton2:hover{
+   background-color: #3498d8;
+}
+
+.boton3{
+    background-color: red;
+}
+.boton3:hover{
+    background-color: #c0392b;
+}
+
+
+.price{
+ font-size: 25px;
+ color: #a88917;
+ padding: 15px;
+}
+.price:hover{
+    color: #735f1e;
+}
+
+.price1 span{
+   font-size: 20px;
+}
+
+.price2{
+   color: #5DADE2;
+}
+.price2:hover{
+    color: #1572ab;
+}
+.price3{
+    color: red;
+}
+.price3:hover{
+    color: #b13629;
+}
+.stars{
+  color: orange;
+  font-size: 14px;
+}
+
